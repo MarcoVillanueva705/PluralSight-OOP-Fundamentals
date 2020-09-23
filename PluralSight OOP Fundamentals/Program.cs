@@ -1,0 +1,42 @@
+﻿using System;
+
+namespace PluralSight_OOP_Fundamentals
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            //GIVEN A BUSINESS REQUEST:
+            //You must now make code that is defended, manageable, scalable, maintainable and testable
+            //The first step to building an OOP application is to identify the classes
+
+            //Identify the classes that represent the business entities
+            //Definte the appropriate properties (data)
+            //Define methods (actions/behavior)
+            
+            //
+            //When extracting classes from words, start with the Nouns
+            //Look at each noun in the requirments, and determine if it's a class
+            //
+            //Customer, Product, Order
+
+            //Defining Apporpriate Members
+            
+            //Customer's Name (Last name, first name)
+            //Email address
+            //Home and Work address
+
+            //Product name
+            //Description
+            //Current Price
+
+            //Orders
+            //Customer
+            //Order Date
+            //Shipping Address
+            //Products and Quantities Ordered
+
+        }
+    }
+}

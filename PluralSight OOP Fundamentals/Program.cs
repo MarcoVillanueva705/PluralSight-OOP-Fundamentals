@@ -14,16 +14,16 @@ namespace PluralSight_OOP_Fundamentals
             //Identify the classes that represent the business entities
             //Definte the appropriate properties (data)
             //Define methods (actions/behavior)
-            
+
             //
             //When extracting classes from words, start with the Nouns
             //Look at each noun in the requirments, and determine if it's a class
             //
-            
+
             //***Customer, Product, Order***
 
             //Defining Apporpriate Members
-            
+
             //Customer's Name (Last name, first name)
             //Email address
             //Home and Work address
@@ -40,11 +40,45 @@ namespace PluralSight_OOP_Fundamentals
 
             //**It wouldn't make sense to require a separate order
             //for each ordered product; that's why the 'Order item class** 
-            
+
             //Order Items
             //Product 
             //Quantity
 
+            //*Define Appropriate Members
+
+            //Customer
+            //-Name
+            //-Email
+            //-Home add
+            //-Work add
+            //Validate()
+            //Retrieve()
+            //Save()
+
+            //Product
+            //-Product Name
+            //-Description
+            //-Current Price
+            //Validate()
+            //Retrieve()
+            //Save()
+
+            //Order
+            //-Customer
+            //-Order date
+            //S-hipping address
+            //Order dates
+            //Validate()
+            //Retrieve()
+            //Save()
         }
+
+        //Order Item
+        //-Product
+        //-Quantity
+        //Validate()
+        //Retrieve()
+        //Save()
     }
 }

@@ -19,7 +19,8 @@ namespace PluralSight_OOP_Fundamentals
             //When extracting classes from words, start with the Nouns
             //Look at each noun in the requirments, and determine if it's a class
             //
-            //Customer, Product, Order
+            
+            //***Customer, Product, Order***
 
             //Defining Apporpriate Members
             
@@ -31,11 +32,18 @@ namespace PluralSight_OOP_Fundamentals
             //Description
             //Current Price
 
-            //Orders
+            //Order
             //Customer
             //Order Date
             //Shipping Address
-            //Products and Quantities Ordered
+            //Order items
+
+            //**It wouldn't make sense to require a separate order
+            //for each ordered product; that's why the 'Order item class** 
+            
+            //Order Items
+            //Product 
+            //Quantity
 
         }
     }

@@ -77,6 +77,8 @@ namespace PluralSight_OOP_Fundamentals
         //Order Item
         //-Product
         //-Quantity
+        //**methods define operations and the actions and behaviors
+        //appropriate for the class
         //Validate()
         //Retrieve()
         //Save()

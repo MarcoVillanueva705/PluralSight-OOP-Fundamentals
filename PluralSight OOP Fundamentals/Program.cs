@@ -82,5 +82,24 @@ namespace PluralSight_OOP_Fundamentals
         //Validate()
         //Retrieve()
         //Save()
+
+        //**Identifying Classes from Requirements**
+        //-ABSTRACTION:
+        //The process of defining classes by simplfying
+        //reality, ignoring extraneous details, and focusing on
+        //what is important for a purpose.
+        //It involves abstracting away the extraneous details in order
+        //to focus on what is relevant for the particular application.
+        //Defining appropriate abstractions is considered one of the pillars
+        //or 'key characteristics' of OOP.
+
+        //-ENCAPSULATION
+        //A way to hide or 'encapsulate' the data and implementation details 
+        //within a class, thus hiding complexity.
+        //In C#, the object data is exposed to the application through property
+        //getters and setters.
+        //The operations are exposed to the application through 'methods'.
+        //The exposed set of methods and property method getters and setters
+        //define the class interface to the rest of the application.
     }
 }

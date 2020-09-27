@@ -145,5 +145,17 @@ namespace PluralSight_OOP_Fundamentals
         //*It shields the other objects from having to know the implementation details.
         
         //*Only the class needs to understand the implementation.
+
+        //*The code is easier to modify and test, because it is encapsulated in one
+        //place
+
+        //*Because of this, the implementation can be changed as needed, without impacting the rest
+        //of the application
+
+        //*The real world works like this as well i.e. if you order a product online, you don't need
+        //to know anything about where or how your product is stored or how your order is processed.
+
+        //*By building classes with properties and methods, we encapsulate the logic for each entity
+        //within one unit of code
     }
 }

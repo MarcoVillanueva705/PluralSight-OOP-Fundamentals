@@ -101,5 +101,31 @@ namespace PluralSight_OOP_Fundamentals
         //The operations are exposed to the application through 'methods'.
         //The exposed set of methods and property method getters and setters
         //define the class interface to the rest of the application.
+        //If the UI wants to accecss property such as a name, it must call
+        //the 'getter' or 'setter'. The 'getter' retrieves the value of
+        //the private data, optionally manipulates the data, and returns it.
+        //The 'setter' optionally validates the incoming value, and if valid, 
+        //updates the private data.  Any code that wants to perform an operation
+        //using the code within the class, must call the methods.  Encapsulation 
+        //is a key underlying principal that makes it possible to build large,
+        //full-featured systems by breaking complex operations into encapsulated
+        //units.  These encapsulated units are classes.  Encapsulation allows
+        //the objects in an application to work together without each object knowing
+        //the details of other object's implementation. Encapsulation hides both the
+        //data and implementation within the class. This data hiding has many benefits:
+        //*It protects the data
+        //*No other code can modify the underlying data except through the 'getters' and
+        //'setters'
+        //*This prevents an object's values from being corrupted by other objects
+        //*We can add code to the 'getter' to perform operations before the data is provided
+        //*For example, we could ensure the user has access to the specific data element.
+        //We can add code to the 'setter' to perform operations before the data is set.
+        //*For example, we could provide validation so that the data is never set to an invalid
+        //value.  
+        //Hiding the method implementation details also has it's benefits:
+        //*It helps to manage the complexity of the application by breaking it down into 
+        //manageable units. 
+        //*It shields the other objects from having to know the implementation details.
+         //*Only the class needs to understand the implementation.
     }
 }
